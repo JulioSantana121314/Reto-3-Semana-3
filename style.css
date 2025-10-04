@@ -1,0 +1,56 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body{
+  margin-inline: auto;
+  justify-content: center;
+  align-items: center;
+  background-color: #fefefe;
+  width: 80%;
+}
+
+.lista{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-inline: ;
+}
+
+header{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  background-color: #fefefe;
+  align-items: center;
+}
+
+
+
+
+
+/* COSAS */
+
+.button{
+  padding: 0.75rem 2.5rem;
+  box-sizing: border-box;
+  background-color: #fefefe;
+  border: solid red;
+  
+}
+
+/* UTILS */
+
+.f-1{
+  flex:1
+}
+
+.f-2{
+  flex:2
+}
+
+.a-items-center{
+  align-items: center;
+}
